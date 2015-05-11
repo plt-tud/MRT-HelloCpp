@@ -1,16 +1,12 @@
 # MRT-HelloCpp
 
 ## Preparations
-To be able to easily use this project, the MRT-Environment must be set up first. Please clone it from its own repository and execute the installer script before continuing with this tutorial.
+To be able to easily use this project, the MRT-Environment must be set up first. Please clone it from its own repository (git clone https://github.com/plt-tud/MRT-Environment-Setup.git) and execute the installer script before continuing with this tutorial.
 
 ## Compiling the project
 The project is compiled using an automatically generated makefile. To be able to compile, the cross compilation tools must be available on to the build environment. 
 
-- Select *Project/Properties* from the Eclipse menu.
-- Select *C/C++ Build/Settings*
-- In the tab *Tool Settings* select *Cross Settings*
-- In the field *Path* enter the path to the *raspberrypi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin* folder of the MRT-Environment.
-- Select *Project/Build Project* from the Eclipse menu. The project should build without errors.
+Right-click on the project and select *Build Project*. The project should build without errors.
 
 ## Remote debugging
 Before this project can be debugged remotely, you need to do some preparations:
