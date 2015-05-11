@@ -3,17 +3,7 @@
 ## Preparations
 To be able to easily use this project, the MRT-Environment must be set up first. Please clone it from its own repository and execute the installer script before continuing with this tutorial.
 
-## Importing the project
-  - To import the project, it is recommendable to create a folder *workspace* in the MRT-Environment folder. When you start Eclipse you can choose this filder as the workspace root.
-  - Clone the MRT-HelloCpp project directly into this workspace folder
-  - Choose *File/Import...* from the Eclipse Menu
-  - Choose *Existing Code as Makefile Project* from the C/C++ category
-  - Enter a project name (e.g. 'HelloCpp') and pick the location where you have cloned the project
-  - As a Tool chain select *Cross GCC*
-  - Press Finish 
-
 ## Compiling the project
-
 The project is compiled using an automatically generated makefile. To be able to compile, the cross compilation tools must be available on to the build environment. 
 
 - Select *Project/Properties* from the Eclipse menu.
